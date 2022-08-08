@@ -1,0 +1,30 @@
+
+h1{width: 100;
+    background-color: #FFE2E2;
+    border-radius:10px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20x;opacity: 0.8;
+    font-family: Garamond;}
+   
+    .circle{
+        width: 150px;
+        height: 150px;
+        margin:auto;
+        border-radius: 50%;
+        opacity: 0.8;
+        transition: all;}
+
+        .circle:hover{opacity: 1;}
+
+        #red {background-color: #FFE2E2;filter: drop-shadow(0 0 0.75rem #F6F6F6); }
+        
+        #yellow {background-color: #FFC7C7;filter: drop-shadow(0 0 0.75rem #F6F6F6);}
+          
+        #green {background-color: #AAAAAA;filter: drop-shadow(0 0 0.75rem #F6F6F6); }
+
+        html {
+            cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="60" width="60"><text y="25" font-size="30">🎠</text><path d="M0,2 L0,0 L2,0" fill="red" /></svg>'), auto;}
+
+            
+       
